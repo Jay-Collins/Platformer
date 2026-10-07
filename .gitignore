@@ -1,0 +1,126 @@
+# Only Unity project files and repository documentation belong at the root.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/Assets/
+!/Packages/
+!/ProjectSettings/
+
+# Imported art, sound, UI artwork, and source animation packs.
+/Assets/Assets/
+/Assets/Assets.meta
+
+# These player clips are derived from the excluded animation pack.
+*.anim
+*.anim.meta
+
+# Art/media files wherever they are added (including editor artwork).
+*.[fF][bB][xX]
+*.[fF][bB][xX].meta
+*.obj
+*.obj.meta
+*.blend
+*.blend.meta
+*.gltf
+*.gltf.meta
+*.glb
+*.glb.meta
+*.dae
+*.dae.meta
+*.[pP][nN][gG]
+*.[pP][nN][gG].meta
+*.[jJ][pP][gG]
+*.[jJ][pP][gG].meta
+*.jpeg
+*.jpeg.meta
+*.tga
+*.tga.meta
+*.psd
+*.psd.meta
+*.tif
+*.tif.meta
+*.tiff
+*.tiff.meta
+*.exr
+*.exr.meta
+*.hdr
+*.hdr.meta
+*.svg
+*.svg.meta
+*.gif
+*.gif.meta
+*.webp
+*.webp.meta
+*.wav
+*.wav.meta
+*.mp3
+*.mp3.meta
+*.ogg
+*.ogg.meta
+*.aiff
+*.aiff.meta
+*.flac
+*.flac.meta
+*.mp4
+*.mp4.meta
+*.mov
+*.mov.meta
+*.ttf
+*.ttf.meta
+*.otf
+*.otf.meta
+*.pdf
+*.pdf.meta
+
+# TMP font/sprite assets embed atlas art inside otherwise text-based .asset files.
+/Assets/TextMesh Pro/Fonts/
+/Assets/TextMesh Pro/Fonts.meta
+/Assets/TextMesh Pro/Sprites/
+/Assets/TextMesh Pro/Sprites.meta
+/Assets/TextMesh Pro/Resources/Fonts & Materials/
+/Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+/Assets/TextMesh Pro/Resources/Sprite Assets/
+/Assets/TextMesh Pro/Resources/Sprite Assets.meta
+/Assets/TextMesh Pro/Documentation/
+/Assets/TextMesh Pro/Documentation.meta
+
+# Unity's sample welcome page and editor-only package artwork.
+/Assets/TutorialInfo/
+/Assets/TutorialInfo.meta
+/Assets/Readme.asset
+/Assets/Readme.asset.meta
+/Assets/Plugins/Demigiant/DOTween/Editor/Imgs/
+/Assets/Plugins/Demigiant/DOTween/Editor/Imgs.meta
+
+# Local/editor/generated files, including copies nested under Assets.
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+**/[Ll]ogs/
+**/[Uu]ser[Ss]ettings/
+**/[Bb]uild/
+**/[Bb]uilds/
+**/.vs/
+**/.idea/
+**/.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.pidb
+*.pdb
+*.mdb
+*.mdb.meta
+*.unitypackage
+*.zip
+*.7z
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.pfx
+*.p12
+*.keystore
+
